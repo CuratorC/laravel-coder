@@ -1,0 +1,25 @@
+{
+    "name": "curatorc\/coder",
+    "description": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CuratorC",
+            "email": "mail@houyining.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "CuratorC\\Coder\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CuratorC\\Coder\\ServiceProvider"
+            ]
+        }
+    }
+}
